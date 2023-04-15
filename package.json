@@ -1,0 +1,43 @@
+{
+  "name": "dc-dark-theme",
+  "description": "DC Dark Theme",
+  "displayName": "DC Dark Theme",
+  "version": "0.0.1 ",
+  "icon": "assets/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/donavancarvalho/dc-dark-theme"
+  },
+  "keywords": [
+    "Theme",
+    "DC",
+    "Dark",
+    "Donavan",
+    "Donovan",
+    "Carvalho"
+  ],
+  "publisher": "DonavanCarvalho",
+  "engines": {
+    "vscode": "^1.22.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "DC Dark Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dc-dark-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "package": "vsce package --no-yarn",
+    "publish": "vsce publish --no-yarn"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vsce": "^2.15.0"
+  }
+}
