@@ -2,7 +2,7 @@
   "name": "dc-dark-theme",
   "description": "DC Dark Theme",
   "displayName": "DC Dark Theme",
-  "version": "0.0.1 ",
+  "version": "0.0.1",
   "icon": "assets/icon.png",
   "repository": {
     "type": "git",
